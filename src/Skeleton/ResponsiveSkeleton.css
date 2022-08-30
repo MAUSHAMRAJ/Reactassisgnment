@@ -1,0 +1,45 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .manu-main {
+    flex-direction: column-reverse;
+  }
+  .advertskeleton {
+    display: none;
+  }
+  .manu-img {
+    width: 100%;
+  }
+  .manu-skeleton-left {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .manu-skeleton-right {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .cardsk-responsive{
+    display: block;
+}
+  .cardskeleton-main {
+    display: flex;
+    width: 100%;
+  }
+  .cardskeleton-imgcontent {
+    width: 50%;
+  }
+  .card-skeleton-textcontent {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .cardheadingskeleton{
+    width: 40%;
+  }
+  .cardtitleskeleton{
+    width: 100%;
+  }
+  .card-author-date{
+    width: 20%;
+  }
+  .card-author-name{
+    width: 20%;
+  }
+}

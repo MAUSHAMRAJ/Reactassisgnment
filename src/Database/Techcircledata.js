@@ -1,0 +1,27 @@
+const Techcircledata=[
+            {src:'./image/techcircle1.png',
+            para:'Zomato-backed Shiprocket to pick 75% stake in data platform Wigzo Tech',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle2.png',
+            para:'upGrad net loss widens as advertising expenses jump twofold in FY21',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle3.png',
+            para:'Youth-focused neobank Muvin bags $3 mn in a round led by WaterBridge Ventures',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle4.png',
+            para:'Rooter raises $25 mn led by Lightbox, March Gaming, others',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle1.png',
+            para:'Zomato-backed Shiprocket to pick 75% stake in data platform Wigzo Tech',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle2.png',
+            para:'upGrad net loss widens as advertising expenses jump twofold in FY21',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle3.png',
+            para:'Youth-focused neobank Muvin bags $3 mn in a round led by WaterBridge Ventures',
+            author:'30 September  .Madhurima Nandy'},
+            {src:'./image/techcircle4.png',
+            para:'Rooter raises $25 mn led by Lightbox, March Gaming, others',
+            author:'30 September  .Madhurima Nandy'}
+    ]
+    export default Techcircledata;
