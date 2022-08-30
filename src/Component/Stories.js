@@ -1,6 +1,6 @@
 import React from "react";
 import { Cards } from "./Cards";
-import PremiumImg from "./PremiumImg";
+// import PremiumImg from "./PremiumImg";
 
 function Stories(props) {
   return (

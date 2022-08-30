@@ -1,7 +1,7 @@
 import React from "react";
 // import Advertisment from "./Advertisment";
 import { Cards } from "./Cards";
-import PremiumImg from "./PremiumImg";
+// import PremiumImg from "./PremiumImg";
 import {Link} from 'react-router-dom'
 import moment from "moment";
 
@@ -11,14 +11,14 @@ function Manufacturing(props) {
       <div className="manufacturing_main">
         <div className="manufacturing_left">
           <h1 className="menu_title">
-          <Link 
+          <Link
               to={props?.item.stories_list[0].industry_details[0].slug || "" }>
             {props.item.stories_list[0].industry_details[0].name}
             </Link>
             </h1>
           <h3 className="manu_subcontent">
             {/* Warburg Pincus set to acquire majority stake in auto parts maker */}
-            <Link 
+            <Link
               to={props?.item.stories_list[0].slug || "" }>
             {props.item.stories_list[0].title }
             </Link>
@@ -33,7 +33,7 @@ function Manufacturing(props) {
               {moment(props.publish).format("Do MMM ")}
               </li>
               <li>
-              <Link 
+              <Link
               to={props?.item.stories_list[0].author_details[0].slug || "" }>
             {props.item.stories_list[0].author_details[0].name}
             </Link>
@@ -42,9 +42,9 @@ function Manufacturing(props) {
 
           <button className="manufacturing_button">READ MORE</button>
         </div>
-        
+
         <div className="manufacturing_right">
-        <Link 
+        <Link
               to={props?.item.stories_list[0].slug || "" }>
         <img src={props.item.stories_list[0].file_url} alt="img" />
         </Link>
@@ -54,7 +54,7 @@ function Manufacturing(props) {
 
 
       <div className="economy_main" >
-          
+
                 {props.item.stories_list.map((item,index) =>{
                   if(index===0) return null;
                   return(
@@ -85,9 +85,9 @@ function Manufacturing(props) {
                     {/* </div> */}
                     </>
                   )
-                })}  
-            
-            
+                })}
+
+
       </div>
       <div className="secondadvertisment">
         <h5 className="sideadvertisment_response " style={{textAlign: 'center'}}>Advertisement</h5>

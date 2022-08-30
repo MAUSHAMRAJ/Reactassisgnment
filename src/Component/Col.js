@@ -4,7 +4,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/css";
 import "swiper/scss/navigation";
 import { Cards } from "./Cards";
-import PremiumImg from "./PremiumImg";
+// import PremiumImg from "./PremiumImg";
 
 function Col(props) {
   return (

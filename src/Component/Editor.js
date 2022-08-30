@@ -3,7 +3,7 @@ import { Cards } from "./Cards";
 import Sideadd from "./Sideadd";
 import moment from "moment";
 import {Link} from 'react-router-dom'
-import PremiumImg from "./PremiumImg";
+// import PremiumImg from "./PremiumImg";
 function Editor(props) {
   return (
     <div className="container" key={props.item.stories_list[0].feid}>
@@ -12,7 +12,7 @@ function Editor(props) {
         <div className="editor_content1">
         <p className="editor_head">{props.item.section_name}</p>
           <div className="editor_premium" >
-          <Link 
+          <Link
               to={props?.item.stories_list[0].slug || "" }>
             <img src={props.item.stories_list[0].file_url} alt="editorimg" />
             </Link>
@@ -20,12 +20,12 @@ function Editor(props) {
             </div>
             <div className="editor_contents">
             <h5 className="heading_title">
-              <Link 
+              <Link
               to={props?.item.stories_list[0].industry_details[0].slug || "" }>
             {props.item.stories_list[0].industry_details[0].name}
             </Link></h5>
             <p className="editor-para">
-              <Link 
+              <Link
               to={props?.item.stories_list[0].slug || "" }>
               {props.item.stories_list[0].title}
               </Link>
@@ -33,13 +33,13 @@ function Editor(props) {
 
             <ul className="author_para">
               <li className="li_author">{moment(props.publish).format("Do MMM YYYY")}</li>
-              <li>  <Link 
+              <li>  <Link
               to={props?.item.stories_list[0].author_details[0].slug || "" }>
               {props.item.stories_list[0].author_details[0].name}
               </Link>
               </li>
             </ul>
-    
+
             </div>
           </div>
           <div className="editor_content2">
@@ -71,14 +71,14 @@ function Editor(props) {
                 // {/* </div> */}
               );
             })}
-           </div> 
+           </div>
           <div className="responsivesideadd">
             <Sideadd/>
           </div>
         </div>
 
       </div>
-      
+
     </div>
   );
 }
